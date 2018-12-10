@@ -79,7 +79,7 @@
 
 
 .nav-links_callbtn {
-  background-color: $acc2;
+  background-color: $acc4;
   border-radius: 50px !important;
   padding: 5px 0;
   font-weight: bold;
@@ -97,7 +97,7 @@
   justify-content: center;
   text-decoration: none;
   &:hover {
-    background-color: $acc1;
+    background-color: darken($acc4, 15%);
     color: white;
     text-decoration: none;
   }

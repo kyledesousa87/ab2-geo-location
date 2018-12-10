@@ -1,4 +1,4 @@
-<div id="leading" class="content bg-nobel section-pad">
+<div id="reviews" class="content bg-nobel section-pad">
     <div class="content_row ">
         <div class="content_row__main pushout">
             <div class="row">
@@ -416,6 +416,21 @@
                     </div>
 
                 </div>
+
+            </div>
+            <div class="row d-block d-sm-block d-md-none d-lg-none d-xl-none mt-2">
+                <div class="col-sm-12 ">
+                    <iframe src="{{locatioURL}}" width="100%" height="240" frameborder="0" style="border:0" allowfullscreen style="pointer-events:none"></iframe>
+                </div>
+            </div>
+            <div class="row">
+
+
+                {{#ifequal content-price-terms true}}
+
+                {{> content-price-terms}}
+                {{else}}
+                {{/ifequal}}
             </div>
         </div>
     </div>

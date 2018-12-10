@@ -17,13 +17,15 @@
     align-self: center;
   }
   &_hed{
-
+    background-color: white;
+    padding: 20px 20px 0 20px;
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
-    a {
-      background-color: $acc1;
 
+    a {
+      background-color: $acc4;
+      text-align: center;
       color: white;
       font-size: 18px;
       line-height: 25px;
@@ -31,7 +33,7 @@
       text-decoration: none;
       flex-grow: 1;
       &:hover {
-        background-color: lighten($acc1, 10%);
+        background-color: darken($acc4, 10%);
       }
       span {
         color: white;
@@ -43,7 +45,7 @@
     }
     &:before {
 
-      background-color: $acc2;
+      background-color: $acc4;
       $icoW: 39px;
       $icoH: 40px;
       @include svgPngFb("new/icon-call");
@@ -129,7 +131,7 @@
   }
 
   .submit {
-    background-color: $acc1;
+    background-color: $acc4;
     border-radius: 50px !important;
     padding: 10px 0;
     font-family: $fontName;
